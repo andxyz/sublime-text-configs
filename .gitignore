@@ -1,0 +1,37 @@
+## ignore everything
+*
+
+## whitelist
+!.gitignore
+## whitelist my settings
+!Packages/
+!Packages/User/
+!Packages/User/*
+
+## blacklist secret api keys
+Packages/User/Gist.sublime-settings
+Packages/User/GitHub.sublime-settings
+Packages/User/MarkdownPreview.sublime-settings
+
+## blacklist themes
+Packages/User/*.tmTheme
+
+## strange configs
+Packages/User/Xdebug.breakpoints
+
+## black list secret stuff in Packages/User/
+## see https://sublime.wbond.net/docs/syncing
+Packages/User/Package Control.last-run
+Packages/User/Package Control.ca-list
+Packages/User/Package Control.ca-bundleow
+Packages/User/Package Control.user-ca-bundle
+Packages/User/Package Control.system-ca-bundle
+Packages/User/Package Control.merged-ca-bundle
+Packages/User/Package Control.cache/
+Packages/User/Package Control.ca-certs/
+Packages/User/bh_unicode_properties.cache
+
+## see
+## https://github.com/github/gitignore/
+## or
+## ~/.gitignore_global
