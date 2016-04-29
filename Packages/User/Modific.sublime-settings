@@ -1,0 +1,45 @@
+{
+	"autosave": false,
+	"console_encoding": "",
+	"debug": false,
+	"highlight_changes": true,
+	"max_file_size": 1024,
+	"region_icon": "modific",
+	"svn_use_internal_diff": false,
+	"vcs":
+	[
+		{
+			"cmd": "/usr/local/bin/git",
+			"dir": ".git",
+			"name": "git"
+		},
+		{
+			"cmd": "svn",
+			"dir": ".svn",
+			"name": "svn"
+		},
+		{
+			"cmd": "bzr",
+			"dir": ".bzr",
+			"name": "bzr"
+		},
+		{
+			"cmd": "hg",
+			"dir": ".hg",
+			"name": "hg"
+		},
+		{
+			"cmd": "C:/Program Files (x86)/Microsoft Visual Studio 11.0/Common7/IDE/TF.exe",
+			"dir": "$tf",
+			"name": "tf"
+		}
+	],
+	"vcs_options":
+	{
+		"git":
+		[
+			"--no-color",
+			"--no-ext-diff"
+		]
+	}
+}

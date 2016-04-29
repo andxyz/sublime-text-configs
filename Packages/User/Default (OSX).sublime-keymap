@@ -1,0 +1,27 @@
+[
+  //willbond alignment
+  { "keys": ["command+shift+a"], "command": "alignment" },
+  // scroll to and highlight the file on the left nav
+  { "keys": ["shift+super+r"], "command": "reveal_in_side_bar" },
+  // swap the keybindings for paste and paste_and_indent
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["ctrl+command+v"], "command": "paste" },
+  // auto_match_enabled is annoying me when it eats my endbrackets
+  { "keys": [")"], "command": "insert", "args": {"characters": ")"}, "context":
+      [
+          { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+          { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+          { "key": "following_text", "operator": "regex_contains", "operand": "^\\)", "match_all": true }
+      ]
+  },
+  // Undo tab close / recently closed tabs https://www.sublimetext.com/forum/viewtopic.php?f=4&t=2542
+  { "keys": ["shift+super+t"], "command": "open_recent_file", "args": {"index" : 0} },
+  // open the file in finder
+  { "keys": ["shift+super+o"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+  // open the terminal for file
+  { "keys": ["shift+super+option+t"], "command": "open_terminal" },
+  // open current selection from find results
+  { "keys": ["super+enter"], "command": "prev_result" },
+  // copy filepath relative to project
+  { "keys": ["cmd+shift+c"], "command": "copy_relative_path" }
+]

@@ -1,0 +1,14 @@
+{
+
+  "sublimelinter": "save-only",
+
+  "sublimelinter_executable_map": {
+    "perl": "/usr/local/Cellar/perl518/5.18.0/bin/perl",
+    "php":  "/usr/local/opt/php54/bin/php",
+    "ruby": "/Users/andxyz/.rbenv/shims/ruby",
+    "C":    "/usr/local/bin/cppcheck",
+    "C++":  "/usr/local/bin/cppcheck",
+    "Java": "/usr/bin/javac -Xlint"
+  }
+
+}

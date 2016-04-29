@@ -1,0 +1,9 @@
+{
+  "options_java": {
+    "style": "java",
+    "max-code-length": 120,
+    "use_only_additional_options": false,
+    "additional_options_file": "",
+    "additional_options": []
+  }
+}

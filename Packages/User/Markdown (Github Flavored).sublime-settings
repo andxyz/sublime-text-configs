@@ -1,0 +1,12 @@
+{
+  // Sets the colors used within the text area
+  "color_scheme": "Packages/knockdown/Knockdown.tmTheme",
+
+	"extensions":
+	[
+		"markdown",
+		"mdown",
+		"md",
+    "md.txt"
+	]
+}
