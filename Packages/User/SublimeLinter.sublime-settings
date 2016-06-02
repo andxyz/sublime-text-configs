@@ -1,14 +1,86 @@
 {
-
-  "sublimelinter": "save-only",
-
-  "sublimelinter_executable_map": {
-    "perl": "/usr/local/Cellar/perl518/5.18.0/bin/perl",
-    "php":  "/usr/local/opt/php54/bin/php",
-    "ruby": "/Users/andxyz/.rbenv/shims/ruby",
-    "C":    "/usr/local/bin/cppcheck",
-    "C++":  "/usr/local/bin/cppcheck",
-    "Java": "/usr/bin/javac -Xlint"
-  }
-
+    "user": {
+        "debug": false,
+        "delay": 0.25,
+        "error_color": "D02000",
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+        "gutter_theme_excludes": [],
+        "lint_mode": "manual",
+        "linters": {
+            "coffee": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "csslint": {
+                "@disable": false,
+                "args": [],
+                "errors": "",
+                "excludes": [],
+                "ignore": "",
+                "warnings": ""
+            },
+            "flake8": {
+                "@disable": false,
+                "args": [],
+                "builtins": "",
+                "excludes": [],
+                "ignore": "",
+                "jobs": "1",
+                "max-complexity": -1,
+                "max-line-length": null,
+                "select": "",
+                "show-code": false
+            },
+            "javac": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "lint": ""
+            },
+            "ruby": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "rust": {
+                "@disable": false,
+                "args": [],
+                "crate-root": null,
+                "excludes": [],
+                "use-cargo": false,
+                "use-cargo-check": false,
+                "use-crate-root": false
+            }
+        },
+        "mark_style": "stippled underline",
+        "no_column_highlights_line": false,
+        "passive_warnings": false,
+        "paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "python_paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "rc_search_limit": 3,
+        "shell_timeout": 10,
+        "show_errors_on_save": false,
+        "show_marks_in_minimap": true,
+        "syntax_map": {
+            "html (django)": "html",
+            "html (rails)": "html",
+            "html 5": "html",
+            "javascript (babel)": "javascript",
+            "magicpython": "python",
+            "php": "html",
+            "python django": "python",
+            "pythonimproved": "python"
+        },
+        "warning_color": "DDB700",
+        "wrap_find": true
+    }
 }
