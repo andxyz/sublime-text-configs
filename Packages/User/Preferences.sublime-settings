@@ -3,9 +3,9 @@
 	"auto_match_enabled": false,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/Themes/RailsCastsColorScheme (SL).tmTheme",
-	"theme": "Soda Light 3.sublime-theme",
 	"soda_classic_tabs": false,
 	"soda_folder_icons": false,
+	"theme": "Soda Light 3.sublime-theme",
 	"create_window_at_startup": false,
 	"file_exclude_patterns":
 	[
@@ -21,11 +21,15 @@
 	],
 	"folder_exclude_patterns":
 	[
-		"coverage",
 		".git",
 		".sass-cache",
 		".yardoc",
-		".zeus.sock"
+		".zeus.sock",
+		"ansible",
+		"coverage",
+		"tmp",
+		"var/log",
+		"venv"
 	],
 	"font_face": "DejaVu Sans Mono",
 	"font_size": 13.0,
