@@ -3,9 +3,6 @@
 	"auto_match_enabled": false,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/Themes/RailsCastsColorScheme (SL).tmTheme",
-	"soda_classic_tabs": false,
-	"soda_folder_icons": false,
-	"theme": "Soda Light 3.sublime-theme",
 	"create_window_at_startup": false,
 	"file_exclude_patterns":
 	[
@@ -17,7 +14,8 @@
 		".tags",
 		".tags_sorted_by_file",
 		".gemtags",
-		"tags"
+		"tags",
+		".tags"
 	],
 	"folder_exclude_patterns":
 	[
@@ -59,7 +57,10 @@
 	],
 	"scroll_past_end": true,
 	"show_full_path": true,
+	"soda_classic_tabs": false,
+	"soda_folder_icons": false,
 	"tab_size": 2,
+	"theme": "Soda Light 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": "false",
 	"wrap_width": 120
