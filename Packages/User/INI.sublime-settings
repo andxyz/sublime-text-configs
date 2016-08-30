@@ -4,7 +4,7 @@
 		".npmrc",
 		".gitattributes",
 		"ini.dist",
-		".gitignore",
-		".gitconfig"
+		".gitconfig",
+		".gitignore"
 	]
 }
