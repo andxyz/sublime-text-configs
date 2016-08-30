@@ -4,6 +4,7 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/Themes/RailsCastsColorScheme (SL).tmTheme",
 	"create_window_at_startup": false,
+	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -35,7 +36,6 @@
 	"ignored_packages":
 	[
 		"AsciiDoc",
-		"Better CoffeeScript",
 		"Derby",
 		"Enhanced Clojure",
 		"ERB Autocomplete",

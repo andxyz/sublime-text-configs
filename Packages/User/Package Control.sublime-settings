@@ -6,10 +6,12 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"AngularJS",
 		"Ansible",
 		"ApacheConf.tmLanguage",
 		"ApplySyntax",
 		"BeautifyRuby",
+		"Better CoffeeScript",
 		"Better JavaScript",
 		"BracketHighlighter",
 		"Case Conversion",
