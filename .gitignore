@@ -21,6 +21,7 @@ Packages/User/Xdebug.breakpoints
 
 ## black list secret stuff in Packages/User/
 ## see https://sublime.wbond.net/docs/syncing
+Packages/User/oscrypto-ca-bundle.crt
 Packages/User/Package Control.last-run
 Packages/User/Package Control.ca-list
 Packages/User/Package Control.ca-bundleow
