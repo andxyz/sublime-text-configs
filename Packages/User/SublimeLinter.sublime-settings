@@ -1,14 +1,14 @@
 {
 	"user":
 	{
-		"debug": false,
+		"debug": true,
 		"delay": 0.25,
 		"error_color": "D02000",
-		"gutter_theme": "Packages/User/SublimeLinter/gutter-themes/andxyz/andxyz.gutter-theme",
+		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
 		"gutter_theme_excludes":
 		[
 		],
-		"lint_mode": "manual",
+		"lint_mode": "save only",
 		"linters":
 		{
 			"coffee":
