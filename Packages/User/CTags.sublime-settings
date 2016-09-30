@@ -1,4 +1,5 @@
 {
   "command" : "/usr/local/bin/ctags",
-  "opts" : ["-R --languages=ruby --exclude=.git --exclude=log . $(bundle list --paths)"]
+  "opts" : ["-R --languages=ruby --exclude=.git --exclude=log . $(bundle list --paths)"],
+  "tag_file" : "tags"
 }
