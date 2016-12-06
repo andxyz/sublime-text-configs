@@ -34,6 +34,6 @@
   { "keys": ["super+shift+option+c", "b"], "command": "git_gutter_compare_branch" },
   { "keys": ["super+shift+option+c", "t"], "command": "git_gutter_compare_tag" },
   // ctags
-  { "keys": ["ctrl+option+super+pageup"], "command": "jump_prev" },
-  { "keys": ["ctrl+option+super+pagedown"], "command": "navigate_to_definition" }
+  { "keys": ["shift+ctrl+up"], "command": "jump_prev" },
+  { "keys": ["shift+ctrl+down"], "command": "navigate_to_definition" }
 ]

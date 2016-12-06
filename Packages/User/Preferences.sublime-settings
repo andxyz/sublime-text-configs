@@ -7,16 +7,20 @@
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
-		".DS_Store",
-		".gitkeep",
-		"dump.rdb",
-		".rake_tasks~",
 		"*.o",
+		".DS_Store",
+		".gemtags",
+		".gitkeep",
+		".rake_tasks~",
+		".tags",
 		".tags",
 		".tags_sorted_by_file",
-		".gemtags",
 		"tags",
-		".tags"
+		"tags_sorted_by_file",
+		"ansible",
+		"dump.rdb",
+		"project.sublime-project",
+		"project.sublime-workspace"
 	],
 	"folder_exclude_patterns":
 	[
