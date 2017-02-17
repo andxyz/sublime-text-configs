@@ -3,6 +3,7 @@
 	[
 		"rabl",
 		"rb",
+		"rb.j2",
 		"rake",
 		"simplecov",
 		"jbuilder",

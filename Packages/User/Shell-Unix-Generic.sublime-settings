@@ -3,6 +3,9 @@
 	[
 		"zsh",
 		"bash",
-		"sh"
+		"sh",
+		"sh.j2",
+		".env",
+		".env.local"
 	]
 }

@@ -29,15 +29,15 @@
 		".yardoc",
 		".zeus.sock",
 		"ansible",
-		"client",
 		"coverage",
+		"data",
 		"log",
 		"tmp",
 		"var/log",
 		"venv"
 	],
 	"font_face": "DejaVu Sans Mono",
-	"font_size": 13.0,
+	"font_size": 14.0,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[

@@ -19,7 +19,7 @@
   // open the file in finder
   { "keys": ["shift+super+o"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
   // open the terminal for file
-  { "keys": ["shift+super+option+t"], "command": "open_terminal" },
+  { "keys": ["shift+ctrl+option+super+t"], "command": "open_terminal" },
   // open current selection from find results
   { "keys": ["super+enter"], "command": "prev_result" },
   // copy filepath relative to project

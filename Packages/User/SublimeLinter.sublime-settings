@@ -55,7 +55,7 @@
                 "excludes": []
             },
             "rubocop": {
-                "@disable": true,
+                "@disable": false,
                 "args": [
                     "--config",
                     "{$HOME}/.rubocop.yml"
@@ -63,7 +63,7 @@
                 "excludes": []
             },
             "ruby": {
-                "@disable": true,
+                "@disable": false,
                 "args": [],
                 "excludes": []
             },
