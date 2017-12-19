@@ -1,22 +1,14 @@
 {
-	"//1": "font_options%22%3A%20%5B%20%22gray_antialias%22%5D",
 	"auto_match_enabled": false,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Themes/RailsCastsColorScheme (SL).tmTheme",
+	"color_scheme": "Packages/User/Themes/Railscasts Extended.tmTheme",
 	"create_window_at_startup": false,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		"*.o",
 		".DS_Store",
-		".gemtags",
 		".gitkeep",
-		".rake_tasks~",
-		".tags",
-		".tags",
-		".tags_sorted_by_file",
-		"tags",
-		"tags_sorted_by_file",
 		"ansible",
 		"dump.rdb",
 		"project.sublime-project",
@@ -28,27 +20,28 @@
 		".sass-cache",
 		".yardoc",
 		".zeus.sock",
-		"ansible",
 		"coverage",
 		"data",
-		"log",
+		"ansible",
+		"node-modules",
+		"node_modules",
 		"tmp",
-		"var/log",
-		"venv"
+		"venv",
+		"var/log"
 	],
 	"font_face": "DejaVu Sans Mono",
-	"font_size": 14.0,
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 14,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"AsciiDoc",
 		"Derby",
 		"Enhanced Clojure",
 		"ERB Autocomplete",
-		"Gradle_Language",
 		"JavaScript",
-		"Jinja2",
-		"Theme - SoDaReloaded",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -59,6 +52,8 @@
 	"index_files": false,
 	"rulers":
 	[
+		50,
+		72,
 		80,
 		120
 	],

@@ -23,7 +23,7 @@
   // open current selection from find results
   { "keys": ["super+enter"], "command": "prev_result" },
   // copy filepath relative to project
-  { "keys": ["cmd+shift+c"], "command": "copy_relative_path" },
+  { "keys": ["command+shift+c"], "command": "copy_relative_path" },
   // gitguttter binding to my userkey aka the space cadey key http://stevelosh.com/blog/2012/10/a-modern-space-cadet/
   { "keys": ["shift+ctrl+option+super+j"], "command": "git_gutter_next_change" },
   { "keys": ["shift+ctrl+option+super+k"], "command": "git_gutter_prev_change" },
@@ -35,5 +35,17 @@
   { "keys": ["super+shift+option+c", "t"], "command": "git_gutter_compare_tag" },
   // ctags
   { "keys": ["shift+ctrl+up"], "command": "jump_prev" },
-  { "keys": ["shift+ctrl+down"], "command": "navigate_to_definition" }
+  { "keys": ["shift+ctrl+down"], "command": "navigate_to_definition" },
+  // gitgutter
+  { "keys": ["super+shift+option+j"], "command": "git_gutter_next_change" },
+  { "keys": ["super+shift+option+k"], "command": "git_gutter_prev_change" },
+  { "keys": ["super+shift+option+c", "super+d"], "command": "git_gutter_diff_popup" },
+  { "keys": ["super+shift+option+c", "v"], "command": "git_gutter_show_compare" },
+  { "keys": ["super+shift+option+c", "h"], "command": "git_gutter_compare_head" },
+  { "keys": ["super+shift+option+c", "o"], "command": "git_gutter_compare_origin" },
+  { "keys": ["super+shift+option+c", "c"], "command": "git_gutter_compare_commit" },
+  { "keys": ["super+shift+option+c", "f"], "command": "git_gutter_compare_file_commit" },
+  { "keys": ["super+shift+option+c", "b"], "command": "git_gutter_compare_branch" },
+  { "keys": ["super+shift+option+c", "t"], "command": "git_gutter_compare_tag" }
+
 ]

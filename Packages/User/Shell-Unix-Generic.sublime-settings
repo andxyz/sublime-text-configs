@@ -1,11 +1,9 @@
 {
 	"extensions":
 	[
-		"zsh",
-		"bash",
-		"sh",
-		"sh.j2",
 		".env",
-		".env.local"
+		".env.local",
+		"sh.j2",
+		"Taskfile"
 	]
 }

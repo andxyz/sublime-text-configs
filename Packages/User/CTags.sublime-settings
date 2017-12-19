@@ -1,6 +1,15 @@
 {
+  "debug": true,
   "command" : "/usr/local/bin/ctags",
   "opts" : [],
-  "tag_file" : ".git/tags",
-  "extra_tag_files": ["${project}/.git/tags"]
+  "select_searched_symbol": false,
+  "tag_file": ".git/tags",
+  // "extra_tag_paths": [
+  //   [["ruby_project_rich_content", "osx"], "/Users/andxyz/thescore/rich-content-feed/.git/tags"]
+  //   [["ruby_stdlib", "osx"], "/Users/andxyz/.rbenv/tags"]
+  // ],
+  "extra_tag_files": [
+    "{$project_path}/.git/tags",
+    "{$project_path}/.git/tags_sorted_by_file"
+  ]
 }

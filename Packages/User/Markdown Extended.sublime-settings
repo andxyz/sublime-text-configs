@@ -2,7 +2,8 @@
 	"extensions":
 	[
 		"md",
-    "markdown",
-    "mdown"
+		"markdown",
+		"mdown",
+		"txt"
 	]
 }

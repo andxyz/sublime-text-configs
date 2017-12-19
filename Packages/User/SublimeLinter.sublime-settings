@@ -55,15 +55,15 @@
                 "excludes": []
             },
             "rubocop": {
-                "@disable": false,
+                "@disable": true,
                 "args": [
                     "--config",
-                    "{$HOME}/.rubocop.yml"
+                    "{$project_path}/.rubocop.yml"
                 ],
                 "excludes": []
             },
             "ruby": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "excludes": []
             },
@@ -104,6 +104,10 @@
             "python django": "python",
             "pythonimproved": "python"
         },
+        "tooltip_fontsize": "1rem",
+        "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
+        "tooltip_theme_excludes": [],
+        "tooltips": false,
         "warning_color": "DDB700",
         "wrap_find": true
     }

@@ -1,4 +1,11 @@
 {
+	"Ansible":
+	[
+		"yaml",
+		"yml",
+		"yml.dist",
+		"yml.j2"
+	],
 	"HTML (Rails)":
 	[
 		"html.erb"
@@ -50,9 +57,6 @@
 	],
 	"YAML":
 	[
-		".gemrc",
-		"YAML-tmLanguage",
-		"yml",
-		"yml.dist"
+		".gemrc"
 	]
 }
