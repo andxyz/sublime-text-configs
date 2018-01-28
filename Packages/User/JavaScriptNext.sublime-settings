@@ -2,6 +2,7 @@
 	"extensions":
 	[
 		"es6",
-		".eslintrc"
+		".eslintrc",
+		"coffee"
 	]
 }
