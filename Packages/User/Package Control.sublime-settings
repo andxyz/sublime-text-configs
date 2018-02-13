@@ -1,8 +1,5 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
 	"installed_packages":
 	[
 		"Alignment",
@@ -73,10 +70,10 @@
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
 		"Swift",
-		"Tag",
 		"Terminal",
 		"Terraform",
 		"Theme - Soda",
+		"Theme - SoDaReloaded",
 		"TOML",
 		"TrailingSpaces",
 		"Varnish VCL",
