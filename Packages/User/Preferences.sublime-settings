@@ -21,10 +21,10 @@
 		".yardoc",
 		".zeus.sock",
 		"coverage",
-		"data",
 		"ansible",
 		"node-modules",
 		"node_modules",
+		"_site",
 		"tmp",
 		"venv",
 		"var/log"
@@ -34,7 +34,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 15,
+	"font_size": 16,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -42,6 +42,7 @@
 		"Enhanced Clojure",
 		"ERB Autocomplete",
 		"JavaScript",
+		"SublimeLinter-eslint",
 		"Tag",
 		"Vintage",
 		"Xdebug Client"

@@ -1,5 +1,8 @@
 {
 	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Alignment",
@@ -38,7 +41,7 @@
 		"knockdown",
 		"LESS",
 		"Markdown Extended",
-		"Markdown Preview",
+		"MarkdownPreview",
 		"Marked App Menu",
 		"nginx",
 		"Package Control",
