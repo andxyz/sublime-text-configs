@@ -3,6 +3,7 @@
 	[
 		"js",
 		"jsx",
-		"erb"
+		"erb",
+		"coffee"
 	]
 }
