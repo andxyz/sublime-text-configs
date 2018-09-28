@@ -1,4 +1,10 @@
 {
+	"added_words":
+	[
+		"impactful",
+		"roadmap",
+		"lifecycle"
+	],
 	"auto_match_enabled": false,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/Themes/Railscasts Extended.tmTheme",
@@ -6,6 +12,9 @@
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
+		"*.webm",
+		"*.mp4",
+		"*.svg",
 		"*.o",
 		".DS_Store",
 		".gitkeep",
@@ -27,22 +36,30 @@
 		"_site",
 		"tmp",
 		"venv",
-		"var/log"
+		"var/log",
+		"gem-themes-core/assets",
+		"gem-themes-core/templates",
+		"gem-themebuilder/public/",
+		"log",
+		"app/assets/javascripts/application/shared/bundle"
 	],
 	"font_face": "DejaVu Sans Mono",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 16,
+	"font_size": 13,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Derby",
 		"Enhanced Clojure",
 		"ERB Autocomplete",
+		"Go",
+		"GoSublime",
 		"JavaScript",
-		"SublimeLinter-eslint",
+		"Markdown",
+		"SublimeLinter-jshint",
 		"Tag",
 		"Vintage",
 		"Xdebug Client"
@@ -53,6 +70,7 @@
 		"draw_active"
 	],
 	"index_files": false,
+	"line_numbers": true,
 	"rulers":
 	[
 		50,
