@@ -41,10 +41,6 @@
 		"simplecov",
 		"thor"
 	],
-	"Ruby Haml":
-	[
-		"haml"
-	],
 	"Shell-Unix-Generic":
 	[
 		"bash",

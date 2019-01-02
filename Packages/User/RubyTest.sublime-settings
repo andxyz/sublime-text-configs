@@ -3,7 +3,6 @@
   "run_single_rspec_command": "docker-compose exec test rspec --no-color --tty {relative_path}:{line_number}",
 
   "ruby_unit_folder": "test",
-  "ruby_cucumber_folder": "features",
   "ruby_rspec_folder": "spec",
 
   "check_for_chruby": false,

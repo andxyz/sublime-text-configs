@@ -17,8 +17,10 @@ Packages/User/MarkdownPreview.sublime-settings
 Packages/User/*.tmTheme
 
 ## strange configs
-Packages/User/Xdebug.breakpoints
 Packages/User/AngularJS.cache
+Packages/User/Requester.history.json.bkp
+Packages/User/RubyTest.last-run
+Packages/User/Xdebug.breakpoints
 
 ## black list secret stuff in Packages/User/
 ## see https://sublime.wbond.net/docs/syncing

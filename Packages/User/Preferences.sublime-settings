@@ -20,9 +20,7 @@
 		".DS_Store",
 		".gitkeep",
 		"ansible",
-		"dump.rdb",
-		"project.sublime-project",
-		"project.sublime-workspace"
+		"dump.rdb"
 	],
 	"folder_exclude_patterns":
 	[

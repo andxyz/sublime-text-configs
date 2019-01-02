@@ -1,4 +1,0 @@
-{
-	"last_test_run": "docker-compose exec test rspec --no-color --tty spec/models/black_friday_sale_eligibility_spec.rb",
-	"last_test_working_dir": "/Users/andrewstevens/work/format"
-}
