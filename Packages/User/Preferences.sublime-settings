@@ -1,15 +1,8 @@
 {
-	"added_words":
-	[
-		"impactful",
-		"roadmap",
-		"lifecycle"
-	],
 	"auto_match_enabled": false,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/Themes/Railscasts Extended.tmTheme",
 	"create_window_at_startup": false,
-	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -20,7 +13,9 @@
 		".DS_Store",
 		".gitkeep",
 		"ansible",
-		"dump.rdb"
+		"dump.rdb",
+		"project.sublime-project",
+		"project.sublime-workspace"
 	],
 	"folder_exclude_patterns":
 	[
@@ -55,11 +50,9 @@
 		"Enhanced Clojure",
 		"ERB Autocomplete",
 		"Go",
-		"GoSublime",
 		"JavaScript",
 		"Markdown",
-		"SublimeLinter-jshint",
-		"Tag",
+		"SublimeLinter-haml",
 		"Vintage",
 		"Xdebug Client"
 	],
