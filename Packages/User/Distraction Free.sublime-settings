@@ -1,6 +1,7 @@
 {
   "gutter": false,
-  "line_numbers": false,
+  "line_numbers": true,
   "word_wrap": true,
-  "wrap_width": 120
+  "wrap_width": 120,
+  "scroll_past_end": true
 }

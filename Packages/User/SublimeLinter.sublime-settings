@@ -62,7 +62,8 @@
           "excludes": []
       },
       "ruby": {
-          "disable": true,
+          "disable": false,
+          "use_bundle_exec": true,
           "args": [],
           "excludes": []
       },
