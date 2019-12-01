@@ -1,7 +1,14 @@
 {
+	"added_words":
+	[
+		"dialogue",
+		"backend",
+		"api",
+		"Kotlin"
+	],
 	"auto_match_enabled": false,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Themes/Railscasts Extended.tmTheme",
+	"color_scheme": "Packages/RailsBase16 Color Schemes/RailsBase16-railscasts.dark.tmTheme",
 	"create_window_at_startup": false,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -19,6 +26,7 @@
 	],
 	"folder_exclude_patterns":
 	[
+		"test",
 		".git",
 		".sass-cache",
 		".terraform",
@@ -43,7 +51,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 12,
+	"font_size": 15,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -52,6 +60,7 @@
 		"Enhanced Clojure",
 		"ERB Autocomplete",
 		"Go",
+		"GoSublime",
 		"JavaScript",
 		"Markdown",
 		"SublimeLinter-haml",

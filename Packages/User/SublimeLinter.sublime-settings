@@ -53,6 +53,7 @@
       },
       "rubocop": {
           "disable": false,
+          "use_bundle_exec": true,
           "args": [],
           "excludes": []
       },
@@ -68,7 +69,7 @@
           "excludes": []
       },
       "rust": {
-          "disable": true,
+          "disable": false,
           "args": [],
           "crate-root": null,
           "excludes": [],
