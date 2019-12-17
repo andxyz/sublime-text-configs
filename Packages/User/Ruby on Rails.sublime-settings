@@ -1,9 +1,10 @@
 {
 	"extensions":
 	[
-    "Gemfile",
+		"Gemfile",
 		"Vagrantfile",
-    "rb.j2",
-    "erb"
+		"rb.j2",
+		"erb",
+		"arb"
 	]
 }
