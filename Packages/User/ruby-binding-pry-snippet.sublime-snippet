@@ -1,6 +1,9 @@
 <snippet>
   <content><![CDATA[
-require 'pry'; binding.pry$0
+puts "hi"
+require 'pry';
+binding.pry;
+puts "hi";$0
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>binding</tabTrigger>
