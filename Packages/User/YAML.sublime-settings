@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
+		"yml",
 		".gemrc"
 	]
 }
