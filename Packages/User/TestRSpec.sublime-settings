@@ -1,0 +1,20 @@
+{
+  // rspec command
+  "rspec_command": "bundle exec rspec",
+  // environment variables for rspec command
+  "env": {
+    "DISABLE_PRY": "true"
+  },
+  "rspec_add_to_path": "",
+  // rspec runner paths
+  "paths_bin_rspec": "./bin/rspec",
+  "paths_rbenv": "~/.rbenv/bin/rbenv",
+  "paths_rvm": "~/.rvm/bin/rvm-auto-ruby",
+  "paths_system_ruby": "/usr/bin/env ruby",
+  // which rubies to check for when running rspec
+  "check_for_rbenv": true,
+  "check_for_rvm": false,
+  "check_for_system_ruby": false,
+  "check_for_bundler": true,
+  "check_for_spring": false
+}
