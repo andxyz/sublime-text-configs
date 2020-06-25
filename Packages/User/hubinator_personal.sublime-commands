@@ -1,6 +1,3 @@
 [
   // personal git_hubinator commands
-  { "caption": "GithubinatorX: Open on Production", "command": "githubinator", "args": { "permalink": false, "branch": "production" } },
-  { "caption": "GithubinatorX: Copy link on Production", "command": "githubinator", "args": { "permalink": false, "copyonly": true, "branch": "production" } },
-  { "caption": "GithubinatorX: Open blame on Production", "command": "githubinator", "args": { "permalink": false, "mode": "blame", "branch": "production" } },
 ]

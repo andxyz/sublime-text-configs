@@ -1,11 +1,11 @@
 [
   //willbond alignment
-  { "keys": ["command+shift+a"], "command": "alignment" },
+  { "keys": ["super+shift+a"], "command": "alignment" },
   // scroll to and highlight the file on the left nav
   { "keys": ["shift+super+r"], "command": "reveal_in_side_bar" },
   // swap the keybindings for paste and paste_and_indent
   { "keys": ["super+v"], "command": "paste_and_indent" },
-  { "keys": ["ctrl+command+v"], "command": "paste" },
+  { "keys": ["ctrl+super+v"], "command": "paste" },
   // auto_match_enabled is annoying me when it eats my endbrackets
   { "keys": [")"], "command": "insert", "args": {"characters": ")"}, "context":
       [
@@ -24,41 +24,33 @@
   { "keys": ["super+enter"], "command": "prev_result" },
   // copy filepath relative to project
   { "keys": ["command+shift+c"], "command": "copy_relative_path" },
-  // gitguttter binding to my userkey aka the space cadey key http://stevelosh.com/blog/2012/10/a-modern-space-cadet/
-  { "keys": ["shift+ctrl+option+super+j"], "command": "git_gutter_next_change" },
-  { "keys": ["shift+ctrl+option+super+k"], "command": "git_gutter_prev_change" },
-  { "keys": ["super+shift+option+c", "v"], "command": "git_gutter_show_compare" },
-  { "keys": ["super+shift+option+c", "h"], "command": "git_gutter_compare_head" },
-  { "keys": ["super+shift+option+c", "o"], "command": "git_gutter_compare_origin" },
-  { "keys": ["super+shift+option+c", "c"], "command": "git_gutter_compare_commit" },
-  { "keys": ["super+shift+option+c", "b"], "command": "git_gutter_compare_branch" },
-  { "keys": ["super+shift+option+c", "t"], "command": "git_gutter_compare_tag" },
   // ctags
   { "keys": ["shift+ctrl+up"], "command": "jump_prev" },
   { "keys": ["shift+ctrl+down"], "command": "navigate_to_definition" },
+  // gitguttter binding to my userkey aka the space cadey key http://stevelosh.com/blog/2012/10/a-modern-space-cadet/
+  // { "keys": ["shift+ctrl+option+super+j"], "command": "git_gutter_next_change" },
+  // { "keys": ["shift+ctrl+option+super+k"], "command": "git_gutter_prev_change" },
+  // { "keys": ["super+shift+option+c", "v"], "command": "git_gutter_show_compare" },
+  // { "keys": ["super+shift+option+c", "h"], "command": "git_gutter_compare_head" },
+  // { "keys": ["super+shift+option+c", "o"], "command": "git_gutter_compare_origin" },
+  // { "keys": ["super+shift+option+c", "c"], "command": "git_gutter_compare_commit" },
+  // { "keys": ["super+shift+option+c", "b"], "command": "git_gutter_compare_branch" },
+  // { "keys": ["super+shift+option+c", "t"], "command": "git_gutter_compare_tag" },
   // gitgutter
-  { "keys": ["super+shift+option+j"], "command": "git_gutter_next_change" },
-  { "keys": ["super+shift+option+k"], "command": "git_gutter_prev_change" },
-  { "keys": ["super+shift+option+c", "super+d"], "command": "git_gutter_diff_popup" },
-  { "keys": ["super+shift+option+c", "v"], "command": "git_gutter_show_compare" },
-  { "keys": ["super+shift+option+c", "h"], "command": "git_gutter_compare_head" },
-  { "keys": ["super+shift+option+c", "o"], "command": "git_gutter_compare_origin" },
-  { "keys": ["super+shift+option+c", "c"], "command": "git_gutter_compare_commit" },
-  { "keys": ["super+shift+option+c", "f"], "command": "git_gutter_compare_file_commit" },
-  { "keys": ["super+shift+option+c", "b"], "command": "git_gutter_compare_branch" },
-  { "keys": ["super+shift+option+c", "t"], "command": "git_gutter_compare_tag" },
+  // { "keys": ["super+shift+option+j"], "command": "git_gutter_next_change" },
+  // { "keys": ["super+shift+option+k"], "command": "git_gutter_prev_change" },
+  // { "keys": ["super+shift+option+c", "super+d"], "command": "git_gutter_diff_popup" },
+  // { "keys": ["super+shift+option+c", "v"], "command": "git_gutter_show_compare" },
+  // { "keys": ["super+shift+option+c", "h"], "command": "git_gutter_compare_head" },
+  // { "keys": ["super+shift+option+c", "o"], "command": "git_gutter_compare_origin" },
+  // { "keys": ["super+shift+option+c", "c"], "command": "git_gutter_compare_commit" },
+  // { "keys": ["super+shift+option+c", "f"], "command": "git_gutter_compare_file_commit" },
+  // { "keys": ["super+shift+option+c", "b"], "command": "git_gutter_compare_branch" },
+  // { "keys": ["super+shift+option+c", "t"], "command": "git_gutter_compare_tag" },
 
   // rubytest
-  { "keys": ["alt+shift+r"], "command": "run_single_ruby_test",
-    "context": [ { "key": "selector", "operator": "equal",
-                   "operand": "source.ruby, source.rspec, text.gherkin.feature"
-               } ]
-  }, // single test
-  { "keys": ["alt+shift+t"], "command": "run_all_ruby_test",
-      "context": [ { "key": "selector", "operator": "equal",
-         "operand": "source.ruby, source.rspec, text.gherkin.feature"
-                } ]
-  }, // test file
-  { "keys": ["alt+shift+e"], "command": "run_last_ruby_test" }, // test last test file
-  { "keys": ["super+shift+x"], "command": "show_test_panel" } // show test panel
+  { "keys": ["super+alt+t"], "command": "run_all_ruby_test" }, // test file
+  { "keys": ["super+alt+r"], "command": "run_single_ruby_test" }, // single test
+  { "keys": ["super+alt+e"], "command": "run_last_ruby_test" }, // test last test file
+  { "keys": ["super+alt+x"], "command": "show_test_panel" } // show test panel
 ]
