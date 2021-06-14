@@ -1,8 +1,9 @@
 {
 	"extensions":
 	[
+		"yml.dist",
 		"yaml",
 		"yml.j2",
-		"yml.dist"
-	]
+		"yml",
+	],
 }
