@@ -12,6 +12,7 @@
 		"ApplySyntax",
 		"Babel",
 		"BeautifyRuby",
+		"Better CoffeeScript",
 		"Better JavaScript",
 		"Better RSpec",
 		"BracketHighlighter",
@@ -49,6 +50,7 @@
 		"MarkdownPreview",
 		"Marked App Menu",
 		"nginx",
+		"OpenFilesLister",
 		"Package Control",
 		"Pandown",
 		"Path Tools",
@@ -57,7 +59,9 @@
 		"Rake",
 		"React Templates",
 		"Requester",
+		"RobotFrameworkAssistant",
 		"Ruby Slim",
+		"RubyTest",
 		"Sass",
 		"Schemr",
 		"Search in Project",
@@ -93,5 +97,5 @@
 		"WordHighlight",
 		"Xdebug Client",
 		"yardoc"
-	]
+	],
 }
