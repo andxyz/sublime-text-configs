@@ -51,8 +51,16 @@
 	[
 		"xml.dist"
 	],
+	/*"YAML":
+	[
+		".gemrc"
+	]*/
+	/*"YAML":
+	[
+		".gemrc"
+	],*/
 	"YAML":
 	[
 		".gemrc"
-	]
+	],
 }
