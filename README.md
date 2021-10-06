@@ -1,5 +1,5 @@
 
-This is a git repo of my `~/Library/Application Support/Sublime Text 3/` folder on my mac
+This is a git repo of my `~/Library/Application Support/Sublime Text 4/` folder on my mac
 
 ###
 
