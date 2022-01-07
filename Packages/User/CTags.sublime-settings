@@ -3,15 +3,14 @@
   "command" : "/usr/local/bin/ctags",
   "opts" : [],
   "select_searched_symbol": false,
-  "tag_file": "{$project_path}/.git/tags",
-  "comment123": "Hardcoding 2.7.3 ruby for now",
+  "tag_file": "{$project_path}/.git/tags_sorted_by_file",
+  "comment123": "Hardcoding ruby tag locations for now",
   "extra_tag_paths": [
-      [["source.ruby", "ruby_stdlib_273"], "{$HOME}/.rbenv/versions/2.7.3/include/ruby-2.7.0/tags"],
-      [["source.ruby", "ruby_stdlib_273"], "{$HOME}/.rbenv/versions/2.7.3/lib/ruby/site_ruby/2.7.0/tags"],
-      [["source.ruby", "ruby_stdlib_273"], "{$HOME}/.rbenv/versions/2.7.3/lib/ruby/2.7.0/tags"]
+      [["source.ruby", "ruby_stdlib_273"], "{$HOME}/.rbenv/versions/2.7.3/"],
+      [["source.ruby", "ruby_stdlib_274"], "{$HOME}/.rbenv/versions/2.7.4/"],
+      [["source.ruby", "ruby_stdlib_274"], "{$HOME}/.rbenv/versions/3.0.0/"]
   ],
   "extra_tag_files": [
-    "{$project_path}/.git/gemtags",
-    "{$project_path}/.git/tags_sorted_by_file",
+    "{$project_path}/.git/tags"
   ]
 }
