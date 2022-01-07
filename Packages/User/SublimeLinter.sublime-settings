@@ -1,5 +1,10 @@
 // SublimeLinter Settings - User
 {
+  "paths": {
+    "linux": [],
+    "osx": ["~/.rbenv/shims"],
+    "windows": []
+  },
   "lint_mode": "save",
   "delay": 0.25,
   "lint_mode": "save",
