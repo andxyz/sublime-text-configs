@@ -26,6 +26,7 @@
 		"DiffView",
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
+		"DotENV",
 		"EditorConfig",
 		"Elixir",
 		"ElixirSyntax",
@@ -96,6 +97,6 @@
 		"Varnish VCL",
 		"WordHighlight",
 		"Xdebug Client",
-		"yardoc"
+		"yardoc",
 	],
 }
