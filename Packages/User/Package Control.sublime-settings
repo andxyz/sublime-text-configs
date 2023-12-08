@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Sass",
 	],
 	"installed_packages":
 	[
@@ -47,7 +46,7 @@
 		"JsFormat",
 		"knockdown",
 		"Kotlin",
-		"LESS",
+		"Less",
 		"Markdown Extended",
 		"MarkdownPreview",
 		"Marked App Menu",
@@ -68,6 +67,7 @@
 		"Schemr",
 		"Search in Project",
 		"SideBarEnhancements",
+		"SideBarTools",
 		"Slate",
 		"SortBy",
 		"Splunk Conf File Syntax Highlighting",
