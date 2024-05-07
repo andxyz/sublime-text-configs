@@ -99,18 +99,6 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"GitSavvy",
-		"Go",
-		"JavaScript",
-		"Markdown",
-		"Perl",
-		"RobotFrameworkAssistant",
-		"Sass",
-		"SublimeGit",
-		"SublimeLinter",
-		"SublimeLinter-eslint",
-		"SublimeLinter-haml",
-		"Vintage",
 		"Xdebug Client",
 	],
 	"indent_guide_options":
