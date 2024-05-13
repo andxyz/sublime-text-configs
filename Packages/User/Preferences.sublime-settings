@@ -42,12 +42,12 @@
 		"rearchitected",
 		"cloudwatch",
 		"splunk",
-		"Javascript",
+		"Javascript"
 	],
-	"auto_match_enabled": false,
 	"auto_complete_commit_on_tab": true,
+	"auto_match_enabled": false,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/User/Themes/Monokai Extended Bright (SL).tmTheme",
 	"create_window_at_startup": false,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -99,6 +99,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"JavaScript",
+		"Vintage",
 		"Xdebug Client",
 	],
 	"indent_guide_options":
@@ -120,7 +122,7 @@
 	"soda_classic_tabs": false,
 	"soda_folder_icons": false,
 	"tab_size": 2,
-	// "theme": "Soda Light 3.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": "false",
 	"wrap_width": 120,
