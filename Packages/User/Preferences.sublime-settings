@@ -90,7 +90,7 @@
 		"log",
 		"app/assets/javascripts/application/shared/bundle"
 	],
-	"font_face": "DejaVu Sans Mono",
+	"font_face": "DejaVuSansM Nerd Font Mono",
 	"font_options":
 	[
 		"subpixel_antialias"
